@@ -1,0 +1,116 @@
+[
+  {
+    "slug": "html",
+    "name": "HTML",
+    "imgSrc": "/images/tech_stacks/html.png",
+    "disabled": false
+  },
+  {
+    "slug": "css",
+    "name": "CSS",
+    "imgSrc": "/images/tech_stacks/css.png",
+    "disabled": false
+  },
+  {
+    "slug": "javascript",
+    "name": "Javascript",
+    "imgSrc": "/images/tech_stacks/javascript.png",
+    "disabled": false
+  },
+  {
+    "slug": "typescript",
+    "name": "Typescript",
+    "imgSrc": "/images/tech_stacks/typescript.png",
+    "disabled": false
+  },
+  {
+    "slug": "react",
+    "name": "React",
+    "imgSrc": "/images/tech_stacks/react.png",
+    "disabled": false
+  },
+  {
+    "slug": "tailwind",
+    "name": "Tailwind CSS",
+    "imgSrc": "/images/tech_stacks/tailwind.png",
+    "disabled": false
+  },
+  {
+    "slug": "nextjs",
+    "name": "Next.js",
+    "imgSrc": "/images/tech_stacks/nextjs.png",
+    "disabled": false
+  },
+  {
+    "slug": "material_ui",
+    "name": "Material UI",
+    "imgSrc": "/images/tech_stacks/materialui.png",
+    "disabled": false
+  },
+  {
+    "slug": "nodejs",
+    "name": "NodeJS",
+    "imgSrc": "/images/tech_stacks/nodejs.png",
+    "disabled": false
+  },
+  {
+    "slug": "express",
+    "name": "Express",
+    "imgSrc": "/images/tech_stacks/express.png",
+    "disabled": false
+  },
+  {
+    "slug": "mysql",
+    "name": "MySQL",
+    "imgSrc": "/images/tech_stacks/mysql.png",
+    "disabled": false
+  },
+  {
+    "slug": "java",
+    "name": "Java",
+    "imgSrc": "/images/tech_stacks/java.png",
+    "disabled": true
+  },
+  {
+    "slug": "spring",
+    "name": "Spring",
+    "imgSrc": "/images/tech_stacks/spring.png",
+    "disabled": true
+  },
+  {
+    "slug": "mongodb",
+    "name": "MongoDB",
+    "imgSrc": "/images/tech_stacks/mongodb.png",
+    "disabled": false
+  },
+  {
+    "slug": "bootstrap5",
+    "name": "Bootstrap 5",
+    "imgSrc": "/images/tech_stacks/bootstrap.png",
+    "disabled": false
+  },
+  {
+    "slug": "python",
+    "name": "Python",
+    "imgSrc": "/images/tech_stacks/python.png",
+    "disabled": true
+  },
+  {
+    "slug": "flask",
+    "name": "Flask",
+    "imgSrc": "/images/tech_stacks/flask.png",
+    "disabled": true
+  },
+  {
+    "slug": "android",
+    "name": "Android",
+    "imgSrc": "/images/tech_stacks/android.png",
+    "disabled": true
+  },
+  {
+    "slug": "php",
+    "name": "PHP",
+    "imgSrc": "/images/tech_stacks/android.png",
+    "disabled": true
+  }
+]

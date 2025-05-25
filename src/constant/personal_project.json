@@ -1,0 +1,572 @@
+[
+  {
+    "id": 0,
+    "disabled": true,
+    "projectSlug": "personal-portfolio-website-2023",
+    "projectName": "Personal Portfolio Website 2023",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/FYEN-Personal-Website",
+    "liveUrl": "https://fyen-personal-website.onrender.com",
+    "techStacks": ["react", "tailwind", "javascript"],
+    "images": [
+      {
+        "imageName": "Personal Portfolio Website 2023",
+        "imageUrl": "/images/personal_project/personal-portfolio-website-2023/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 1,
+    "disabled": false,
+    "projectSlug": "website-prediksi-penjualan",
+    "projectName": "Website Prediksi Penjualan",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/Website-Prediksi-Penjualan",
+    "liveUrl": "",
+    "techStacks": ["react", "material_ui", "nodejs", "express", "mysql"],
+    "images": [
+      {
+        "imageName": "Website Prediksi Penjualan",
+        "imageUrl": "/images/personal_project/website-prediksi-penjualan/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 2,
+    "disabled": false,
+    "projectSlug": "omnifood",
+    "projectName": "Omnifood",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/Omnifood",
+    "liveUrl": "https://fyen45.github.io/Omnifood/",
+    "techStacks": ["html", "css", "javascript"],
+    "images": [
+      {
+        "imageName": "Omnifood",
+        "imageUrl": "/images/personal_project/omnifood/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 3,
+    "disabled": true,
+    "projectSlug": "spring-restfull-api",
+    "projectName": "Spring RESTfull Api",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/spring-restfull-api",
+    "liveUrl": "",
+    "techStacks": ["spring", "java"],
+    "images": [
+      {
+        "imageName": "Spring RESTfull API",
+        "imageUrl": "/images/personal_project/spring-restfull-api/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 4,
+    "disabled": false,
+    "projectSlug": "analytics-landing-page",
+    "projectName": "Analytics Landing Page",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/Analytics-Landing-Page",
+    "liveUrl": "https://analytics-landing-page-ui.onrender.com",
+    "techStacks": ["react", "tailwind"],
+    "images": [
+      {
+        "imageName": "Analytics Landing Page",
+        "imageUrl": "/images/personal_project/analytics-landing-page/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 5,
+    "disabled": false,
+    "projectSlug": "social-media-app",
+    "projectName": "Social Media App",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/Social-Media-App",
+    "liveUrl": "https://social-media-app-p95v.onrender.com",
+    "techStacks": ["react", "material_ui", "nodejs", "express", "mongodb"],
+    "images": [
+      {
+        "imageName": "Social Media App",
+        "imageUrl": "/images/personal_project/social-media-app/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 6,
+    "disabled": false,
+    "projectSlug": "admin-dashboard",
+    "projectName": "Admin Dashboard",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/Admin-Dashboard",
+    "liveUrl": "https://fe-admin-dashboard.onrender.com",
+    "techStacks": ["react", "material_ui", "nodejs", "express", "mongodb"],
+    "images": [
+      {
+        "imageName": "Admin Dashboard",
+        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 7,
+    "disabled": false,
+    "projectSlug": "sewa-kamar-hotel",
+    "projectName": "Sewa Kamar Hotel",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/UAS-PWFP-SewaKamarHotel",
+    "liveUrl": "",
+    "techStacks": ["html", "css", "bootstrap5", "python", "flask", "mysql"],
+    "images": [
+      {
+        "imageName": "Sewa Kamar Hotel",
+        "imageUrl": "/images/personal_project/sewa-kamar-hotel/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 8,
+    "disabled": false,
+    "projectSlug": "perpustakaan-gramedia",
+    "projectName": "Perpustakaan Gramedia",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/UTS-PWFP-PerpustakaanGramedia",
+    "liveUrl": "",
+    "techStacks": ["html", "css", "bootstrap5", "python", "flask", "mysql"],
+    "images": [
+      {
+        "imageName": "Perpustakaan Gramedia",
+        "imageUrl": "/images/personal_project/perpustakaan-gramedia/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 9,
+    "disabled": false,
+    "projectSlug": "katalog-mobil",
+    "projectName": "Katalog Mobil",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/UTS-PM-KatalogMobil",
+    "liveUrl": "",
+    "techStacks": ["android", "java", "php", "mysql"],
+    "images": [
+      {
+        "imageName": "Katalog Mobil",
+        "imageUrl": "/images/personal_project/katalog-mobil/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 10,
+    "disabled": false,
+    "projectSlug": "genshin-impact-wiki",
+    "projectName": "Genshin Impact Wiki",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/UAS-PM-JenshinWiki",
+    "liveUrl": "",
+    "techStacks": ["android", "java", "php", "mysql"],
+    "images": [
+      {
+        "imageName": "Genshin Impact Wiki",
+        "imageUrl": "/images/personal_project/genshin-impact-wiki/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 11,
+    "disabled": false,
+    "projectSlug": "food-delivery-app",
+    "projectName": "Food Delivery App",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/food-delivery-app",
+    "liveUrl": "",
+    "techStacks": ["react", "tailwind", "nodejs", "express", "mongodb"],
+    "images": [
+      {
+        "imageName": "Food Delivery App",
+        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 12,
+    "disabled": false,
+    "projectSlug": "weather-forecast-app",
+    "projectName": "Weather Forecast App",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/weather-app",
+    "liveUrl": "",
+    "techStacks": ["react", "material_ui", "nodejs"],
+    "images": [
+      {
+        "imageName": "Weather Forecast App",
+        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 13,
+    "disabled": false,
+    "projectSlug": "inventory-management",
+    "projectName": "Inventory Management System",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/inventory-system",
+    "liveUrl": "",
+    "techStacks": ["react", "bootstrap5", "nodejs", "mysql"],
+    "images": [
+      {
+        "imageName": "Inventory Management System",
+        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 14,
+    "disabled": false,
+    "projectSlug": "task-management",
+    "projectName": "Task Management App",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/task-management",
+    "liveUrl": "",
+    "techStacks": ["react", "material_ui", "nodejs", "mongodb"],
+    "images": [
+      {
+        "imageName": "Task Management App",
+        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 15,
+    "disabled": false,
+    "projectSlug": "online-learning-platform",
+    "projectName": "Online Learning Platform",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/e-learning",
+    "liveUrl": "",
+    "techStacks": ["react", "tailwind", "nodejs", "mongodb"],
+    "images": [
+      {
+        "imageName": "Online Learning Platform",
+        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 16,
+    "disabled": false,
+    "projectSlug": "chat-application",
+    "projectName": "Real-time Chat Application",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/chat-app",
+    "liveUrl": "",
+    "techStacks": ["react", "material_ui", "nodejs", "mongodb"],
+    "images": [
+      {
+        "imageName": "Real-time Chat Application",
+        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 17,
+    "disabled": false,
+    "projectSlug": "blog-platform",
+    "projectName": "Blog Platform",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/blog-platform",
+    "liveUrl": "",
+    "techStacks": ["react", "tailwind", "nodejs", "mongodb"],
+    "images": [
+      {
+        "imageName": "Blog Platform",
+        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 18,
+    "disabled": false,
+    "projectSlug": "expense-tracker",
+    "projectName": "Expense Tracker",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/expense-tracker",
+    "liveUrl": "",
+    "techStacks": ["react", "material_ui", "nodejs", "mysql"],
+    "images": [
+      {
+        "imageName": "Expense Tracker",
+        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 19,
+    "disabled": false,
+    "projectSlug": "fitness-tracker",
+    "projectName": "Fitness Tracker App",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/fitness-tracker",
+    "liveUrl": "",
+    "techStacks": ["react", "tailwind", "nodejs", "mongodb"],
+    "images": [
+      {
+        "imageName": "Fitness Tracker App",
+        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 20,
+    "disabled": false,
+    "projectSlug": "movie-database",
+    "projectName": "Movie Database App",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/movie-database",
+    "liveUrl": "",
+    "techStacks": ["react", "material_ui", "nodejs", "mongodb"],
+    "images": [
+      {
+        "imageName": "Movie Database App",
+        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 21,
+    "disabled": false,
+    "projectSlug": "notes-app",
+    "projectName": "Notes Taking App",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/notes-app",
+    "liveUrl": "",
+    "techStacks": ["react", "tailwind", "nodejs", "mongodb"],
+    "images": [
+      {
+        "imageName": "Notes Taking App",
+        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 22,
+    "disabled": false,
+    "projectSlug": "recipe-finder",
+    "projectName": "Recipe Finder App",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/recipe-finder",
+    "liveUrl": "",
+    "techStacks": ["react", "material_ui", "nodejs", "mongodb"],
+    "images": [
+      {
+        "imageName": "Recipe Finder App",
+        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 23,
+    "disabled": false,
+    "projectSlug": "job-board",
+    "projectName": "Job Board Platform",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/job-board",
+    "liveUrl": "",
+    "techStacks": ["react", "tailwind", "nodejs", "mysql"],
+    "images": [
+      {
+        "imageName": "Job Board Platform",
+        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 24,
+    "disabled": false,
+    "projectSlug": "music-player",
+    "projectName": "Music Player App",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/music-player",
+    "liveUrl": "",
+    "techStacks": ["react", "material_ui", "nodejs", "mongodb"],
+    "images": [
+      {
+        "imageName": "Music Player App",
+        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 25,
+    "disabled": false,
+    "projectSlug": "quiz-app",
+    "projectName": "Interactive Quiz App",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/quiz-app",
+    "liveUrl": "",
+    "techStacks": ["react", "tailwind", "nodejs", "mongodb"],
+    "images": [
+      {
+        "imageName": "Interactive Quiz App",
+        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 26,
+    "disabled": false,
+    "projectSlug": "real-estate",
+    "projectName": "Real Estate Platform",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/real-estate",
+    "liveUrl": "",
+    "techStacks": ["react", "material_ui", "nodejs", "mysql"],
+    "images": [
+      {
+        "imageName": "Real Estate Platform",
+        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 27,
+    "disabled": false,
+    "projectSlug": "todo-app",
+    "projectName": "Todo List App",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/todo-app",
+    "liveUrl": "",
+    "techStacks": ["react", "tailwind", "nodejs", "mongodb"],
+    "images": [
+      {
+        "imageName": "Todo List App",
+        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 28,
+    "disabled": false,
+    "projectSlug": "url-shortener",
+    "projectName": "URL Shortener",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/url-shortener",
+    "liveUrl": "",
+    "techStacks": ["react", "material_ui", "nodejs", "mongodb"],
+    "images": [
+      {
+        "imageName": "URL Shortener",
+        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  },
+  {
+    "id": 29,
+    "disabled": false,
+    "projectSlug": "video-streaming",
+    "projectName": "Video Streaming Platform",
+    "projectDescription": "",
+    "projectStatus": "Completed",
+    "repoUrl": "https://github.com/FYEN45/video-streaming",
+    "liveUrl": "",
+    "techStacks": ["react", "tailwind", "nodejs", "mongodb"],
+    "images": [
+      {
+        "imageName": "Video Streaming Platform",
+        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": []
+  }
+]

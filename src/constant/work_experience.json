@@ -1,0 +1,11 @@
+[
+	{
+		"id": 1,
+		"company": "PT. Redbuzz Mediatama",
+		"position": "web developer",
+		"status": "contract",
+		"startDate": "2018-01-01",
+		"endDate": "present",
+		"description": "As a Front-end Web Developer, I have expertise in building responsive and scalable web applications using React, HTML, CSS, and JavaScript. Proficient in utilizing TypeScript for type safety and Next.js for server-side rendering. Skilled in designing visually appealing UI components with Material UI, ensuring seamless user experiences across various devices and browsers."
+	}
+]

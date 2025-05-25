@@ -1,0 +1,60 @@
+[
+  {
+    "id": 0,
+    "disabled": false,
+    "projectSlug": "mta-backoffice-fe",
+    "projectName": "Mall Taman Anggrek Backoffice",
+    "projectDescription": "Sed vehicula auctor odio, a ullamcorper est cursus eget. Duis turpis neque, condimentum pellentesque aliquam ut, bibendum at ex. Quisque at ante in elit scelerisque bibendum. Curabitur porttitor efficitur neque ac bibendum. Mauris enim nisi, porttitor in egestas vel, ullamcorper ac eros. Etiam sollicitudin ligula vitae arcu vulputate dignissim vel ut enim. Maecenas semper maximus malesuada. Pellentesque vulputate, libero id malesuada tempor, nisl lorem viverra est, eget sagittis magna urna eget ante. Nulla eu dignissim elit, non viverra dui. Sed quis tellus risus. Vivamus laoreet, erat sed condimentum porttitor, neque lectus molestie eros, quis mollis turpis augue vitae purus. Ut est libero, luctus ac velit a, consectetur pharetra felis. ",
+    "projectStatus": "Ongoing",
+    "repoUrl": "",
+    "liveUrl": "https://backoffice-app.taman-anggrek-mall.com",
+    "techStacks": ["nextjs", "material_ui", "typescript"],
+    "images": [
+      {
+        "imageName": "placeholder image",
+        "imageUrl": "https://placehold.co/1600X900/000000/FFFFFF/png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "placeholder image",
+        "imageUrl": "https://placehold.co/1600X900/000000/FFFFFF/png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "placeholder image",
+        "imageUrl": "https://placehold.co/1600X900/000000/FFFFFF/png",
+        "imageDescription": ""
+      }
+    ],
+    "features": [
+      {
+        "featureName": "Authentication",
+        "featureDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa lacus, auctor nec ornare et, pretium vitae arcu. Phasellus maximus tempus sapien, et tristique ipsum tristique non. Etiam auctor tortor quis lacus pellentesque faucibus euismod eu libero. Nulla venenatis pulvinar maximus. Praesent commodo vehicula risus a tristique. Mauris dignissim lorem rhoncus, varius nisl sit amet, lobortis magna. Sed consectetur vel augue in interdum. "
+      },
+      {
+        "featureName": "Authorization",
+        "featureDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa lacus, auctor nec ornare et, pretium vitae arcu. Phasellus maximus tempus sapien, et tristique ipsum tristique non. Etiam auctor tortor quis lacus pellentesque faucibus euismod eu libero. Nulla venenatis pulvinar maximus. Praesent commodo vehicula risus a tristique. Mauris dignissim lorem rhoncus, varius nisl sit amet, lobortis magna. Sed consectetur vel augue in interdum. "
+      },
+      {
+        "featureName": "CRUD",
+        "featureDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa lacus, auctor nec ornare et, pretium vitae arcu. Phasellus maximus tempus sapien, et tristique ipsum tristique non. Etiam auctor tortor quis lacus pellentesque faucibus euismod eu libero. Nulla venenatis pulvinar maximus. Praesent commodo vehicula risus a tristique. Mauris dignissim lorem rhoncus, varius nisl sit amet, lobortis magna. Sed consectetur vel augue in interdum. "
+      },
+      {
+        "featureName": "Transaction Tracker",
+        "featureDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa lacus, auctor nec ornare et, pretium vitae arcu. Phasellus maximus tempus sapien, et tristique ipsum tristique non. Etiam auctor tortor quis lacus pellentesque faucibus euismod eu libero. Nulla venenatis pulvinar maximus. Praesent commodo vehicula risus a tristique. Mauris dignissim lorem rhoncus, varius nisl sit amet, lobortis magna. Sed consectetur vel augue in interdum. "
+      },
+      {
+        "featureName": "Reward Tracker",
+        "featureDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa lacus, auctor nec ornare et, pretium vitae arcu. Phasellus maximus tempus sapien, et tristique ipsum tristique non. Etiam auctor tortor quis lacus pellentesque faucibus euismod eu libero. Nulla venenatis pulvinar maximus. Praesent commodo vehicula risus a tristique. Mauris dignissim lorem rhoncus, varius nisl sit amet, lobortis magna. Sed consectetur vel augue in interdum. "
+      },
+      {
+        "featureName": "Content Management",
+        "featureDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa lacus, auctor nec ornare et, pretium vitae arcu. Phasellus maximus tempus sapien, et tristique ipsum tristique non. Etiam auctor tortor quis lacus pellentesque faucibus euismod eu libero. Nulla venenatis pulvinar maximus. Praesent commodo vehicula risus a tristique. Mauris dignissim lorem rhoncus, varius nisl sit amet, lobortis magna. Sed consectetur vel augue in interdum. "
+      },
+      {
+        "featureName": "Generate Report",
+        "featureDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa lacus, auctor nec ornare et, pretium vitae arcu. Phasellus maximus tempus sapien, et tristique ipsum tristique non. Etiam auctor tortor quis lacus pellentesque faucibus euismod eu libero. Nulla venenatis pulvinar maximus. Praesent commodo vehicula risus a tristique. Mauris dignissim lorem rhoncus, varius nisl sit amet, lobortis magna. Sed consectetur vel augue in interdum. "
+      }
+    ]
+  }
+]
