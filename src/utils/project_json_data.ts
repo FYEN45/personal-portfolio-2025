@@ -22,14 +22,24 @@ export type ProjectsType = Array<{
   }>;
 }>;
 
+const filterProjects = (projects: ProjectsType) => {
+  // Filter out projects that are disabled
+  const filteredProjects = projects.filter((project) => !project.disabled);
+
+  // Sort projects by id in descending order
+  filteredProjects.sort((a, b) => b.id - a.id);
+
+  return filteredProjects;
+};
+
 export const GetPersonalProjectData = () => {
   const projects: ProjectsType = personalProjectData;
-  return projects;
+  return filterProjects(projects);
 };
 
 export const GetWorkProjectData = () => {
   const projects: ProjectsType = workProjectData;
-  return projects;
+  return filterProjects(projects);
 };
 
 export const GetAllProjectsData = () => {

@@ -1,6 +1,6 @@
 [
   {
-    "id": 0,
+    "id": 11,
     "disabled": true,
     "projectSlug": "personal-portfolio-website-2023",
     "projectName": "Personal Portfolio Website 2023",
@@ -19,30 +19,111 @@
     "features": []
   },
   {
-    "id": 1,
+    "id": 10,
     "disabled": false,
     "projectSlug": "website-prediksi-penjualan",
     "projectName": "Website Prediksi Penjualan",
-    "projectDescription": "",
+    "projectDescription": "This web-based project was developed to predict sales using technologies such as React, Material UI, Node.js, Express, and MySQL. It was created for a final thesis and applies the Weighted Moving Average and Single Exponential Smoothing methods for forecasting. The system uses Mean Absolute Percentage Error (MAPE) to evaluate prediction accuracy. It also manages product and sales data, and includes user authentication and authorization features to ensure secure access.",
     "projectStatus": "Completed",
     "repoUrl": "https://github.com/FYEN45/Website-Prediksi-Penjualan",
     "liveUrl": "",
     "techStacks": ["react", "material_ui", "nodejs", "express", "mysql"],
     "images": [
       {
-        "imageName": "Website Prediksi Penjualan",
+        "imageName": "Home",
         "imageUrl": "/images/personal_project/website-prediksi-penjualan/0.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Login",
+        "imageUrl": "/images/personal_project/website-prediksi-penjualan/1.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Product List",
+        "imageUrl": "/images/personal_project/website-prediksi-penjualan/2.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Add Product",
+        "imageUrl": "/images/personal_project/website-prediksi-penjualan/3.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Edit Product",
+        "imageUrl": "/images/personal_project/website-prediksi-penjualan/4.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Product Sales List",
+        "imageUrl": "/images/personal_project/website-prediksi-penjualan/5.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Add Product Sales",
+        "imageUrl": "/images/personal_project/website-prediksi-penjualan/6.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Edit Product Sales",
+        "imageUrl": "/images/personal_project/website-prediksi-penjualan/7.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Sales Prediction",
+        "imageUrl": "/images/personal_project/website-prediksi-penjualan/8.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "User List",
+        "imageUrl": "/images/personal_project/website-prediksi-penjualan/9.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Create User",
+        "imageUrl": "/images/personal_project/website-prediksi-penjualan/10.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Edit User",
+        "imageUrl": "/images/personal_project/website-prediksi-penjualan/11.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "User Logs",
+        "imageUrl": "/images/personal_project/website-prediksi-penjualan/12.png",
         "imageDescription": ""
       }
     ],
-    "features": []
+    "features": [
+      {
+        "featureName": "Sales Prediction",
+        "featureDescription": "Predict future product sales using Weighted Moving Average and Single Exponential Smoothing methods."
+      },
+      {
+        "featureName": "Error Measurement",
+        "featureDescription": "Evaluate prediction accuracy using Mean Absolute Percentage Error (MAPE)."
+      },
+      {
+        "featureName": "Product Data Management",
+        "featureDescription": "Store and manage data for each product including name, category, and other relevant details."
+      },
+      {
+        "featureName": "Sales Data Management",
+        "featureDescription": "Record and organize sales data for each product over time."
+      },
+      {
+        "featureName": "User Authentication",
+        "featureDescription": "Allow users to register and log in securely using authentication mechanisms."
+      }
+    ]
   },
   {
-    "id": 2,
+    "id": 9,
     "disabled": false,
     "projectSlug": "omnifood",
     "projectName": "Omnifood",
-    "projectDescription": "",
+    "projectDescription": "Omnifood is a fully responsive static website built with HTML, CSS, and JavaScript. It presents a modern interface for a fictional food catering service, showcasing meal plans, service benefits, and customer testimonials. Although it does not include backend functionality, the website is designed to provide a smooth user experience across all devices, focusing on clean design and accessibility.",
     "projectStatus": "Completed",
     "repoUrl": "https://github.com/FYEN45/Omnifood",
     "liveUrl": "https://fyen45.github.io/Omnifood/",
@@ -57,8 +138,8 @@
     "features": []
   },
   {
-    "id": 3,
-    "disabled": true,
+    "id": 8,
+    "disabled": false,
     "projectSlug": "spring-restfull-api",
     "projectName": "Spring RESTfull Api",
     "projectDescription": "",
@@ -76,7 +157,7 @@
     "features": []
   },
   {
-    "id": 4,
+    "id": 7,
     "disabled": false,
     "projectSlug": "analytics-landing-page",
     "projectName": "Analytics Landing Page",
@@ -95,7 +176,7 @@
     "features": []
   },
   {
-    "id": 5,
+    "id": 6,
     "disabled": false,
     "projectSlug": "social-media-app",
     "projectName": "Social Media App",
@@ -114,7 +195,7 @@
     "features": []
   },
   {
-    "id": 6,
+    "id": 5,
     "disabled": false,
     "projectSlug": "admin-dashboard",
     "projectName": "Admin Dashboard",
@@ -133,7 +214,7 @@
     "features": []
   },
   {
-    "id": 7,
+    "id": 4,
     "disabled": false,
     "projectSlug": "sewa-kamar-hotel",
     "projectName": "Sewa Kamar Hotel",
@@ -152,7 +233,7 @@
     "features": []
   },
   {
-    "id": 8,
+    "id": 3,
     "disabled": false,
     "projectSlug": "perpustakaan-gramedia",
     "projectName": "Perpustakaan Gramedia",
@@ -171,7 +252,7 @@
     "features": []
   },
   {
-    "id": 9,
+    "id": 2,
     "disabled": false,
     "projectSlug": "katalog-mobil",
     "projectName": "Katalog Mobil",
@@ -190,7 +271,7 @@
     "features": []
   },
   {
-    "id": 10,
+    "id": 1,
     "disabled": false,
     "projectSlug": "genshin-impact-wiki",
     "projectName": "Genshin Impact Wiki",
@@ -203,367 +284,6 @@
       {
         "imageName": "Genshin Impact Wiki",
         "imageUrl": "/images/personal_project/genshin-impact-wiki/0.png",
-        "imageDescription": ""
-      }
-    ],
-    "features": []
-  },
-  {
-    "id": 11,
-    "disabled": false,
-    "projectSlug": "food-delivery-app",
-    "projectName": "Food Delivery App",
-    "projectDescription": "",
-    "projectStatus": "Completed",
-    "repoUrl": "https://github.com/FYEN45/food-delivery-app",
-    "liveUrl": "",
-    "techStacks": ["react", "tailwind", "nodejs", "express", "mongodb"],
-    "images": [
-      {
-        "imageName": "Food Delivery App",
-        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
-        "imageDescription": ""
-      }
-    ],
-    "features": []
-  },
-  {
-    "id": 12,
-    "disabled": false,
-    "projectSlug": "weather-forecast-app",
-    "projectName": "Weather Forecast App",
-    "projectDescription": "",
-    "projectStatus": "Completed",
-    "repoUrl": "https://github.com/FYEN45/weather-app",
-    "liveUrl": "",
-    "techStacks": ["react", "material_ui", "nodejs"],
-    "images": [
-      {
-        "imageName": "Weather Forecast App",
-        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
-        "imageDescription": ""
-      }
-    ],
-    "features": []
-  },
-  {
-    "id": 13,
-    "disabled": false,
-    "projectSlug": "inventory-management",
-    "projectName": "Inventory Management System",
-    "projectDescription": "",
-    "projectStatus": "Completed",
-    "repoUrl": "https://github.com/FYEN45/inventory-system",
-    "liveUrl": "",
-    "techStacks": ["react", "bootstrap5", "nodejs", "mysql"],
-    "images": [
-      {
-        "imageName": "Inventory Management System",
-        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
-        "imageDescription": ""
-      }
-    ],
-    "features": []
-  },
-  {
-    "id": 14,
-    "disabled": false,
-    "projectSlug": "task-management",
-    "projectName": "Task Management App",
-    "projectDescription": "",
-    "projectStatus": "Completed",
-    "repoUrl": "https://github.com/FYEN45/task-management",
-    "liveUrl": "",
-    "techStacks": ["react", "material_ui", "nodejs", "mongodb"],
-    "images": [
-      {
-        "imageName": "Task Management App",
-        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
-        "imageDescription": ""
-      }
-    ],
-    "features": []
-  },
-  {
-    "id": 15,
-    "disabled": false,
-    "projectSlug": "online-learning-platform",
-    "projectName": "Online Learning Platform",
-    "projectDescription": "",
-    "projectStatus": "Completed",
-    "repoUrl": "https://github.com/FYEN45/e-learning",
-    "liveUrl": "",
-    "techStacks": ["react", "tailwind", "nodejs", "mongodb"],
-    "images": [
-      {
-        "imageName": "Online Learning Platform",
-        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
-        "imageDescription": ""
-      }
-    ],
-    "features": []
-  },
-  {
-    "id": 16,
-    "disabled": false,
-    "projectSlug": "chat-application",
-    "projectName": "Real-time Chat Application",
-    "projectDescription": "",
-    "projectStatus": "Completed",
-    "repoUrl": "https://github.com/FYEN45/chat-app",
-    "liveUrl": "",
-    "techStacks": ["react", "material_ui", "nodejs", "mongodb"],
-    "images": [
-      {
-        "imageName": "Real-time Chat Application",
-        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
-        "imageDescription": ""
-      }
-    ],
-    "features": []
-  },
-  {
-    "id": 17,
-    "disabled": false,
-    "projectSlug": "blog-platform",
-    "projectName": "Blog Platform",
-    "projectDescription": "",
-    "projectStatus": "Completed",
-    "repoUrl": "https://github.com/FYEN45/blog-platform",
-    "liveUrl": "",
-    "techStacks": ["react", "tailwind", "nodejs", "mongodb"],
-    "images": [
-      {
-        "imageName": "Blog Platform",
-        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
-        "imageDescription": ""
-      }
-    ],
-    "features": []
-  },
-  {
-    "id": 18,
-    "disabled": false,
-    "projectSlug": "expense-tracker",
-    "projectName": "Expense Tracker",
-    "projectDescription": "",
-    "projectStatus": "Completed",
-    "repoUrl": "https://github.com/FYEN45/expense-tracker",
-    "liveUrl": "",
-    "techStacks": ["react", "material_ui", "nodejs", "mysql"],
-    "images": [
-      {
-        "imageName": "Expense Tracker",
-        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
-        "imageDescription": ""
-      }
-    ],
-    "features": []
-  },
-  {
-    "id": 19,
-    "disabled": false,
-    "projectSlug": "fitness-tracker",
-    "projectName": "Fitness Tracker App",
-    "projectDescription": "",
-    "projectStatus": "Completed",
-    "repoUrl": "https://github.com/FYEN45/fitness-tracker",
-    "liveUrl": "",
-    "techStacks": ["react", "tailwind", "nodejs", "mongodb"],
-    "images": [
-      {
-        "imageName": "Fitness Tracker App",
-        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
-        "imageDescription": ""
-      }
-    ],
-    "features": []
-  },
-  {
-    "id": 20,
-    "disabled": false,
-    "projectSlug": "movie-database",
-    "projectName": "Movie Database App",
-    "projectDescription": "",
-    "projectStatus": "Completed",
-    "repoUrl": "https://github.com/FYEN45/movie-database",
-    "liveUrl": "",
-    "techStacks": ["react", "material_ui", "nodejs", "mongodb"],
-    "images": [
-      {
-        "imageName": "Movie Database App",
-        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
-        "imageDescription": ""
-      }
-    ],
-    "features": []
-  },
-  {
-    "id": 21,
-    "disabled": false,
-    "projectSlug": "notes-app",
-    "projectName": "Notes Taking App",
-    "projectDescription": "",
-    "projectStatus": "Completed",
-    "repoUrl": "https://github.com/FYEN45/notes-app",
-    "liveUrl": "",
-    "techStacks": ["react", "tailwind", "nodejs", "mongodb"],
-    "images": [
-      {
-        "imageName": "Notes Taking App",
-        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
-        "imageDescription": ""
-      }
-    ],
-    "features": []
-  },
-  {
-    "id": 22,
-    "disabled": false,
-    "projectSlug": "recipe-finder",
-    "projectName": "Recipe Finder App",
-    "projectDescription": "",
-    "projectStatus": "Completed",
-    "repoUrl": "https://github.com/FYEN45/recipe-finder",
-    "liveUrl": "",
-    "techStacks": ["react", "material_ui", "nodejs", "mongodb"],
-    "images": [
-      {
-        "imageName": "Recipe Finder App",
-        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
-        "imageDescription": ""
-      }
-    ],
-    "features": []
-  },
-  {
-    "id": 23,
-    "disabled": false,
-    "projectSlug": "job-board",
-    "projectName": "Job Board Platform",
-    "projectDescription": "",
-    "projectStatus": "Completed",
-    "repoUrl": "https://github.com/FYEN45/job-board",
-    "liveUrl": "",
-    "techStacks": ["react", "tailwind", "nodejs", "mysql"],
-    "images": [
-      {
-        "imageName": "Job Board Platform",
-        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
-        "imageDescription": ""
-      }
-    ],
-    "features": []
-  },
-  {
-    "id": 24,
-    "disabled": false,
-    "projectSlug": "music-player",
-    "projectName": "Music Player App",
-    "projectDescription": "",
-    "projectStatus": "Completed",
-    "repoUrl": "https://github.com/FYEN45/music-player",
-    "liveUrl": "",
-    "techStacks": ["react", "material_ui", "nodejs", "mongodb"],
-    "images": [
-      {
-        "imageName": "Music Player App",
-        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
-        "imageDescription": ""
-      }
-    ],
-    "features": []
-  },
-  {
-    "id": 25,
-    "disabled": false,
-    "projectSlug": "quiz-app",
-    "projectName": "Interactive Quiz App",
-    "projectDescription": "",
-    "projectStatus": "Completed",
-    "repoUrl": "https://github.com/FYEN45/quiz-app",
-    "liveUrl": "",
-    "techStacks": ["react", "tailwind", "nodejs", "mongodb"],
-    "images": [
-      {
-        "imageName": "Interactive Quiz App",
-        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
-        "imageDescription": ""
-      }
-    ],
-    "features": []
-  },
-  {
-    "id": 26,
-    "disabled": false,
-    "projectSlug": "real-estate",
-    "projectName": "Real Estate Platform",
-    "projectDescription": "",
-    "projectStatus": "Completed",
-    "repoUrl": "https://github.com/FYEN45/real-estate",
-    "liveUrl": "",
-    "techStacks": ["react", "material_ui", "nodejs", "mysql"],
-    "images": [
-      {
-        "imageName": "Real Estate Platform",
-        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
-        "imageDescription": ""
-      }
-    ],
-    "features": []
-  },
-  {
-    "id": 27,
-    "disabled": false,
-    "projectSlug": "todo-app",
-    "projectName": "Todo List App",
-    "projectDescription": "",
-    "projectStatus": "Completed",
-    "repoUrl": "https://github.com/FYEN45/todo-app",
-    "liveUrl": "",
-    "techStacks": ["react", "tailwind", "nodejs", "mongodb"],
-    "images": [
-      {
-        "imageName": "Todo List App",
-        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
-        "imageDescription": ""
-      }
-    ],
-    "features": []
-  },
-  {
-    "id": 28,
-    "disabled": false,
-    "projectSlug": "url-shortener",
-    "projectName": "URL Shortener",
-    "projectDescription": "",
-    "projectStatus": "Completed",
-    "repoUrl": "https://github.com/FYEN45/url-shortener",
-    "liveUrl": "",
-    "techStacks": ["react", "material_ui", "nodejs", "mongodb"],
-    "images": [
-      {
-        "imageName": "URL Shortener",
-        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
-        "imageDescription": ""
-      }
-    ],
-    "features": []
-  },
-  {
-    "id": 29,
-    "disabled": false,
-    "projectSlug": "video-streaming",
-    "projectName": "Video Streaming Platform",
-    "projectDescription": "",
-    "projectStatus": "Completed",
-    "repoUrl": "https://github.com/FYEN45/video-streaming",
-    "liveUrl": "",
-    "techStacks": ["react", "tailwind", "nodejs", "mongodb"],
-    "images": [
-      {
-        "imageName": "Video Streaming Platform",
-        "imageUrl": "/images/personal_project/admin-dashboard/0.png",
         "imageDescription": ""
       }
     ],
