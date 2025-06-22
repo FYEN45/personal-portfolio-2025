@@ -4,56 +4,296 @@
     "disabled": false,
     "projectSlug": "mta-backoffice-fe",
     "projectName": "Mall Taman Anggrek Backoffice",
-    "projectDescription": "Sed vehicula auctor odio, a ullamcorper est cursus eget. Duis turpis neque, condimentum pellentesque aliquam ut, bibendum at ex. Quisque at ante in elit scelerisque bibendum. Curabitur porttitor efficitur neque ac bibendum. Mauris enim nisi, porttitor in egestas vel, ullamcorper ac eros. Etiam sollicitudin ligula vitae arcu vulputate dignissim vel ut enim. Maecenas semper maximus malesuada. Pellentesque vulputate, libero id malesuada tempor, nisl lorem viverra est, eget sagittis magna urna eget ante. Nulla eu dignissim elit, non viverra dui. Sed quis tellus risus. Vivamus laoreet, erat sed condimentum porttitor, neque lectus molestie eros, quis mollis turpis augue vitae purus. Ut est libero, luctus ac velit a, consectetur pharetra felis. ",
+    "projectDescription": "Backoffice Mall Taman Anggrek is an internal web application designed to manage the operations of Mall Taman Anggrek efficiently. It features user authentication and authorization, along with modules for managing customers, tenants, memberships, promotions, events, and content for the mall’s member application. Built with Next.js, TypeScript, and Material UI, the system provides a structured, fast, and user-friendly experience for mall administrators.",
     "projectStatus": "Ongoing",
     "repoUrl": "",
     "liveUrl": "https://backoffice-app.taman-anggrek-mall.com",
     "techStacks": ["nextjs", "material_ui", "typescript"],
     "images": [
       {
-        "imageName": "placeholder image",
-        "imageUrl": "https://placehold.co/1600X900/000000/FFFFFF/png",
+        "imageName": "Dashboard",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-0.png",
         "imageDescription": ""
       },
       {
-        "imageName": "placeholder image",
-        "imageUrl": "https://placehold.co/1600X900/000000/FFFFFF/png",
+        "imageName": "Customer List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-1.png",
         "imageDescription": ""
       },
       {
-        "imageName": "placeholder image",
-        "imageUrl": "https://placehold.co/1600X900/000000/FFFFFF/png",
+        "imageName": "Add Customer",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-2.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Tenant",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-3.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Add Tenant",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-4.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "AYC List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-5.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Notification List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-6.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Workflow Approval",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-7.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Master Notification List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-8.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Profile Header List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-9.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Transaction Redemptions",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-10.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Transaction Redemption Detail",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-11.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Transaction Reward",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-12.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Transaction Reward Detail",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-13.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Voucher List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-14.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Raffle List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-15.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Reward List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-16.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Event List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-17.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Campaign List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-18.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Banner List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-19.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Adjustment Point List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-20.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Gender List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-21.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Religion List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-22.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Marital List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-23.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Country List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-24.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Province List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-25.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "City List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-26.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Company Category List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-27.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Tenant Participant List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-28.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Residental Zone List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-29.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Education List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-30.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Occupation List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-31.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Card AYC Type List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-32.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Bank List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-33.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Interest List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-34.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Feedback Category List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-35.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Menu List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-36.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "User List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-37.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Role List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-38.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Role Assignment Feature List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-39.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Update Role Assignment Feature",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-40.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "User Permission List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-41.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Menu Permission List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-42.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Update Menu Permission",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-43.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Settings",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-44.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Frequesntly Asked Question List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-45.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Terms & Conditions List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-46.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Information List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-47.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Contact Us List",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-48.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Generate Report",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-49.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Admin Profile",
+        "imageUrl": "/images/work_project/mta-backoffice-fe/mta-backoffice-50.png",
         "imageDescription": ""
       }
     ],
     "features": [
       {
         "featureName": "Authentication",
-        "featureDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa lacus, auctor nec ornare et, pretium vitae arcu. Phasellus maximus tempus sapien, et tristique ipsum tristique non. Etiam auctor tortor quis lacus pellentesque faucibus euismod eu libero. Nulla venenatis pulvinar maximus. Praesent commodo vehicula risus a tristique. Mauris dignissim lorem rhoncus, varius nisl sit amet, lobortis magna. Sed consectetur vel augue in interdum. "
+        "featureDescription": ""
       },
       {
         "featureName": "Authorization",
-        "featureDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa lacus, auctor nec ornare et, pretium vitae arcu. Phasellus maximus tempus sapien, et tristique ipsum tristique non. Etiam auctor tortor quis lacus pellentesque faucibus euismod eu libero. Nulla venenatis pulvinar maximus. Praesent commodo vehicula risus a tristique. Mauris dignissim lorem rhoncus, varius nisl sit amet, lobortis magna. Sed consectetur vel augue in interdum. "
+        "featureDescription": ""
       },
       {
         "featureName": "CRUD",
-        "featureDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa lacus, auctor nec ornare et, pretium vitae arcu. Phasellus maximus tempus sapien, et tristique ipsum tristique non. Etiam auctor tortor quis lacus pellentesque faucibus euismod eu libero. Nulla venenatis pulvinar maximus. Praesent commodo vehicula risus a tristique. Mauris dignissim lorem rhoncus, varius nisl sit amet, lobortis magna. Sed consectetur vel augue in interdum. "
+        "featureDescription": ""
       },
       {
         "featureName": "Transaction Tracker",
-        "featureDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa lacus, auctor nec ornare et, pretium vitae arcu. Phasellus maximus tempus sapien, et tristique ipsum tristique non. Etiam auctor tortor quis lacus pellentesque faucibus euismod eu libero. Nulla venenatis pulvinar maximus. Praesent commodo vehicula risus a tristique. Mauris dignissim lorem rhoncus, varius nisl sit amet, lobortis magna. Sed consectetur vel augue in interdum. "
+        "featureDescription": ""
       },
       {
         "featureName": "Reward Tracker",
-        "featureDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa lacus, auctor nec ornare et, pretium vitae arcu. Phasellus maximus tempus sapien, et tristique ipsum tristique non. Etiam auctor tortor quis lacus pellentesque faucibus euismod eu libero. Nulla venenatis pulvinar maximus. Praesent commodo vehicula risus a tristique. Mauris dignissim lorem rhoncus, varius nisl sit amet, lobortis magna. Sed consectetur vel augue in interdum. "
+        "featureDescription": ""
       },
       {
         "featureName": "Content Management",
-        "featureDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa lacus, auctor nec ornare et, pretium vitae arcu. Phasellus maximus tempus sapien, et tristique ipsum tristique non. Etiam auctor tortor quis lacus pellentesque faucibus euismod eu libero. Nulla venenatis pulvinar maximus. Praesent commodo vehicula risus a tristique. Mauris dignissim lorem rhoncus, varius nisl sit amet, lobortis magna. Sed consectetur vel augue in interdum. "
+        "featureDescription": ""
       },
       {
         "featureName": "Generate Report",
-        "featureDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa lacus, auctor nec ornare et, pretium vitae arcu. Phasellus maximus tempus sapien, et tristique ipsum tristique non. Etiam auctor tortor quis lacus pellentesque faucibus euismod eu libero. Nulla venenatis pulvinar maximus. Praesent commodo vehicula risus a tristique. Mauris dignissim lorem rhoncus, varius nisl sit amet, lobortis magna. Sed consectetur vel augue in interdum. "
+        "featureDescription": ""
       }
     ]
   }
