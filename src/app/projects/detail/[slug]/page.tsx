@@ -60,6 +60,8 @@ const ProjectDetailPage = async ({
               }`}
               tabIndex={currentProject.liveUrl ? 0 : -1}
               aria-disabled={!currentProject.liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <span className="text-sm font-medium text-white">
                 Visit Website
@@ -80,6 +82,8 @@ const ProjectDetailPage = async ({
               }`}
               tabIndex={currentProject.repoUrl ? 0 : -1}
               aria-disabled={!currentProject.repoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <span className="text-sm font-medium text-white">
                 View Repository
