@@ -124,7 +124,7 @@ const ProjectDetailPage = async ({
               <div className="mt-1 h-1 w-20 rounded-full bg-slate-800 transition-all duration-300 group-hover:w-28" />
             </div>
 
-            <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2">
+            <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
               {currentProject.features.map((feature, index) => (
                 <div
                   key={index}
@@ -133,9 +133,12 @@ const ProjectDetailPage = async ({
                   <h3 className="text-xl font-semibold text-slate-900">
                     {feature.featureName}
                   </h3>
-                  <p className="text-base text-slate-600">
-                    {feature.featureDescription}
-                  </p>
+
+                  {feature.featureDescription && (
+                    <p className="text-base text-slate-600">
+                      {feature.featureDescription}
+                    </p>
+                  )}
                 </div>
               ))}
             </div>
