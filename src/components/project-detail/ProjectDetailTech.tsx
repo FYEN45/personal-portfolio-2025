@@ -12,9 +12,10 @@ type ProjectDetailTechProps = {
 const ProjectDetailTech = (props: ProjectDetailTechProps) => {
   const techStacksData = GetTechStacksData();
 
-  const currentTech = techStacksData.filter((tech) =>
-    props.techStacks.includes(tech.slug),
-  );
+  // Map through props.techStacks to preserve the original order
+  const currentTech = props.techStacks
+    .map((slug) => techStacksData.find((tech) => tech.slug === slug))
+    .filter((tech): tech is NonNullable<typeof tech> => tech !== undefined);
 
   return (
     <div className="mt-4 flex w-full flex-row flex-wrap items-center gap-4">
