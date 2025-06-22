@@ -50,13 +50,39 @@ const ProjectDetailPage = async ({
             {currentProject.projectName}
           </h1>
 
-          <div>
+          <div className="flex flex-row items-center gap-2">
             <Link
-              href={currentProject.liveUrl}
-              className="group flex w-fit flex-row items-center gap-2 rounded-lg bg-red-500 px-4 py-2 transition-all duration-300 hover:bg-red-600"
+              href={currentProject.liveUrl || "#"}
+              className={`group flex w-fit flex-row items-center gap-2 rounded-lg px-4 py-2 transition-all duration-300 ${
+                currentProject.liveUrl
+                  ? "cursor-pointer bg-red-500 hover:bg-red-600"
+                  : "pointer-events-none cursor-not-allowed bg-red-300"
+              }`}
+              tabIndex={currentProject.liveUrl ? 0 : -1}
+              aria-disabled={!currentProject.liveUrl}
             >
               <span className="text-sm font-medium text-white">
                 Visit Website
+              </span>
+              <MdArrowRightAlt
+                size={20}
+                color="#FFFFFF"
+                className="transition-transform group-hover:translate-x-1"
+              />
+            </Link>
+
+            <Link
+              href={currentProject.repoUrl || "#"}
+              className={`group flex w-fit flex-row items-center gap-2 rounded-lg px-4 py-2 transition-all duration-300 ${
+                currentProject.repoUrl
+                  ? "cursor-pointer bg-slate-800 hover:bg-slate-900"
+                  : "pointer-events-none cursor-not-allowed bg-slate-400"
+              }`}
+              tabIndex={currentProject.repoUrl ? 0 : -1}
+              aria-disabled={!currentProject.repoUrl}
+            >
+              <span className="text-sm font-medium text-white">
+                View Repository
               </span>
               <MdArrowRightAlt
                 size={20}
