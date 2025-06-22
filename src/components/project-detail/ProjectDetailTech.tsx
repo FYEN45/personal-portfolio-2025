@@ -24,12 +24,12 @@ const ProjectDetailTech = (props: ProjectDetailTechProps) => {
             className="group relative flex flex-row items-center gap-2.5 rounded-lg bg-white p-3 shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
             key={index}
           >
-            <div className="relative h-10 w-10 overflow-hidden rounded-md bg-slate-50">
+            <div className="relative h-12 w-12 overflow-hidden rounded-md bg-slate-50">
               <Image
                 src={tech.imgSrc}
                 alt={tech.name}
-                width={120}
-                height={120}
+                width={150}
+                height={150}
                 loading="lazy"
                 className="aspect-square h-full w-full object-contain object-center p-2 transition-transform duration-300 group-hover:scale-110"
               />

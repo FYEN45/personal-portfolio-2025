@@ -10,6 +10,23 @@ import {
 import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
+// Custom styles for the image gallery thumbnails only
+const customGalleryStyles = `
+  .image-gallery-thumbnail {
+    border-radius: 0.5rem !important;
+    overflow: hidden !important;
+    transition: border-color 0.3s ease;
+  }
+
+  .image-gallery-thumbnail.active {    
+    border-color: #3b82f6 !important; /* Blue border color for active state */
+  }
+  
+  .image-gallery-thumbnail:hover {    
+    border-color: #60a5fa !important; /* Lighter blue border color for hover state */
+  }
+`;
+
 type ProjectDetailGalleryProps = {
   images: ProjectsType[number]["images"];
 };
@@ -18,6 +35,19 @@ const ProjectDetailGallery = (props: ProjectDetailGalleryProps) => {
   const [thumbnailPosition, setThumbnailPosition] = useState<
     "bottom" | "right"
   >("right");
+
+  // Add custom styles to the document head
+  useEffect(() => {
+    // Create a style element
+    const styleElement = document.createElement("style");
+    styleElement.innerHTML = customGalleryStyles;
+    document.head.appendChild(styleElement);
+
+    // Cleanup function
+    return () => {
+      document.head.removeChild(styleElement);
+    };
+  }, []);
 
   useEffect(() => {
     const handleResize = () => {
@@ -40,17 +70,17 @@ const ProjectDetailGallery = (props: ProjectDetailGalleryProps) => {
       thumbnail: img.imageUrl,
       originalAlt: img.imageName,
       thumbnailAlt: img.imageName,
+      description: img.imageDescription || "", // Add description
+      thumbnailLabel: img.imageName, // Add label for accessibility
     };
-  });
-
-  return (
+  });  return (
     <div className="mx-auto w-full max-w-(--breakpoint-xl) px-4 py-4">
       <ImageGallery
         items={images}
         infinite={true}
         lazyLoad={true}
         showPlayButton={false}
-        showBullets={true}
+        showBullets={false}
         showFullscreenButton={false}
         showThumbnails={true}
         slideInterval={2000}
@@ -58,13 +88,25 @@ const ProjectDetailGallery = (props: ProjectDetailGalleryProps) => {
         thumbnailPosition={thumbnailPosition}
         useBrowserFullscreen={false}
         renderItem={(item) => (
-          <Image
-            src={item.original}
-            alt={item.originalAlt ?? "alt"}
-            width={1600}
-            height={900}
-            className="aspect-video h-auto w-full rounded-lg object-cover object-center shadow-md"
-          />
+          <div className="relative group">
+            <Image
+              src={item.original}
+              alt={item.originalAlt ?? "alt"}
+              width={1600}
+              height={900}
+              className="aspect-video h-auto w-full rounded-lg bg-slate-500 object-contain object-center shadow-md"
+            />
+            {(item.originalAlt || item.description) && (
+              <div className="absolute bottom-0 w-full bg-black/60 p-2 text-center text-white transition-opacity duration-300 md:opacity-0 md:group-hover:opacity-100">
+                {item.originalAlt && (
+                  <div className="text-lg font-bold">{item.originalAlt}</div>
+                )}
+                {item.description && (
+                  <div className="text-sm hidden md:block">{item.description}</div>
+                )}
+              </div>
+            )}
+          </div>
         )}
         renderThumbInner={(item) => (
           <Image
@@ -72,7 +114,7 @@ const ProjectDetailGallery = (props: ProjectDetailGalleryProps) => {
             alt={item.thumbnailAlt ?? "alt"}
             width={1600}
             height={900}
-            className="aspect-video h-auto w-full rounded-lg object-cover object-center shadow-sm"
+            className="aspect-video h-auto w-full bg-slate-500 object-contain object-center shadow-sm"
           />
         )}
         renderRightNav={(onClick, disabled) => (
@@ -82,7 +124,7 @@ const ProjectDetailGallery = (props: ProjectDetailGalleryProps) => {
             disabled={disabled}
           >
             <IoArrowForwardCircleOutline
-              className="text-slate-300 transition-colors duration-300 group-hover:text-white group-disabled:scale-90 group-disabled:opacity-60"
+              className="text-slate-300 transition-all duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_5px_rgba(0,0,0,0.65)] group-disabled:scale-90 group-disabled:opacity-60"
               size={48}
             />
           </button>
@@ -94,7 +136,7 @@ const ProjectDetailGallery = (props: ProjectDetailGalleryProps) => {
             disabled={disabled}
           >
             <IoArrowBackCircleOutline
-              className="text-slate-300 transition-colors duration-300 group-hover:text-white group-disabled:scale-90 group-disabled:opacity-60"
+              className="text-slate-300 transition-all duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_5px_rgba(0,0,0,0.65)] group-disabled:scale-90 group-disabled:opacity-60"
               size={48}
             />
           </button>

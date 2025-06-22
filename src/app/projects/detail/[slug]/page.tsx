@@ -37,7 +37,7 @@ const ProjectDetailPage = async ({
                 alt={currentProject.images[0].imageName}
                 width={1600}
                 height={900}
-                className="aspect-video h-auto w-full object-cover object-center"
+                className="aspect-video h-auto w-full rounded-lg bg-slate-500 object-contain object-center shadow-md"
               />
             </div>
           </div>
@@ -68,7 +68,6 @@ const ProjectDetailPage = async ({
         </div>
 
         <div className="mt-12">
-          {" "}
           <div className="group flex w-fit flex-col">
             <h2 className="text-2xl font-bold text-slate-900">Tech Stacks</h2>
             <div className="mt-1 h-1 w-28 rounded-full bg-slate-800 transition-all duration-300 group-hover:w-36" />
@@ -88,28 +87,30 @@ const ProjectDetailPage = async ({
           </p>
         </div>
 
-        <div className="mt-12">
-          <div className="group flex w-fit flex-col">
-            <h2 className="text-2xl font-bold text-slate-900">Features</h2>
-            <div className="mt-1 h-1 w-20 rounded-full bg-slate-800 transition-all duration-300 group-hover:w-28" />
-          </div>
+        {currentProject.features.length > 0 && (
+          <div className="mt-12">
+            <div className="group flex w-fit flex-col">
+              <h2 className="text-2xl font-bold text-slate-900">Features</h2>
+              <div className="mt-1 h-1 w-20 rounded-full bg-slate-800 transition-all duration-300 group-hover:w-28" />
+            </div>
 
-          <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2">
-            {currentProject.features.map((feature, index) => (
-              <div
-                key={index}
-                className="flex flex-col gap-3 rounded-xl bg-white p-6 shadow-md transition-all duration-300 hover:shadow-lg"
-              >
-                <h3 className="text-xl font-semibold text-slate-900">
-                  {feature.featureName}
-                </h3>
-                <p className="text-base text-slate-600">
-                  {feature.featureDescription}
-                </p>
-              </div>
-            ))}
+            <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2">
+              {currentProject.features.map((feature, index) => (
+                <div
+                  key={index}
+                  className="flex flex-col gap-3 rounded-xl bg-white p-6 shadow-md transition-all duration-300 hover:shadow-lg"
+                >
+                  <h3 className="text-xl font-semibold text-slate-900">
+                    {feature.featureName}
+                  </h3>
+                  <p className="text-base text-slate-600">
+                    {feature.featureDescription}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
       </div>
     </div>
   );
