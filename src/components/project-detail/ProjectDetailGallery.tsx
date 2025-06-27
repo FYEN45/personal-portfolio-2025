@@ -9,23 +9,13 @@ import {
 } from "react-icons/io5";
 import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
-
-// Custom styles for the image gallery thumbnails only
-const customGalleryStyles = `
-  .image-gallery-thumbnail {
-    border-radius: 0.5rem !important;
-    overflow: hidden !important;
-    transition: border-color 0.3s ease;
-  }
-
-  .image-gallery-thumbnail.active {    
-    border-color: #3b82f6 !important; /* Blue border color for active state */
-  }
-  
-  .image-gallery-thumbnail:hover {    
-    border-color: #60a5fa !important; /* Lighter blue border color for hover state */
-  }
-`;
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
+import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
+import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
+import "yet-another-react-lightbox/plugins/thumbnails.css";
 
 type ProjectDetailGalleryProps = {
   images: ProjectsType[number]["images"];
@@ -35,19 +25,8 @@ const ProjectDetailGallery = (props: ProjectDetailGalleryProps) => {
   const [thumbnailPosition, setThumbnailPosition] = useState<
     "bottom" | "right"
   >("right");
-
-  // Add custom styles to the document head
-  useEffect(() => {
-    // Create a style element
-    const styleElement = document.createElement("style");
-    styleElement.innerHTML = customGalleryStyles;
-    document.head.appendChild(styleElement);
-
-    // Cleanup function
-    return () => {
-      document.head.removeChild(styleElement);
-    };
-  }, []);
+  const [index, setIndex] = useState(-1);
+  const [gallery, setGallery] = useState<ImageGallery | null>(null);
 
   useEffect(() => {
     const handleResize = () => {
@@ -70,12 +49,22 @@ const ProjectDetailGallery = (props: ProjectDetailGalleryProps) => {
       thumbnail: img.imageUrl,
       originalAlt: img.imageName,
       thumbnailAlt: img.imageName,
-      description: img.imageDescription || "", // Add description
-      thumbnailLabel: img.imageName, // Add label for accessibility
+      description: img.imageDescription || "",
+      thumbnailLabel: img.imageName,
     };
-  });  return (
+  });
+
+  const slides = images.map(({ original, originalAlt, description }) => ({
+    src: original,
+    alt: originalAlt,
+    title: originalAlt,
+    description,
+  }));
+
+  return (
     <div className="mx-auto w-full max-w-(--breakpoint-xl) px-4 py-4">
       <ImageGallery
+        ref={(el) => setGallery(el)}
         items={images}
         infinite={true}
         lazyLoad={true}
@@ -87,14 +76,19 @@ const ProjectDetailGallery = (props: ProjectDetailGalleryProps) => {
         slideOnThumbnailOver={false}
         thumbnailPosition={thumbnailPosition}
         useBrowserFullscreen={false}
+        onClick={() => {
+          if (gallery) {
+            setIndex(gallery.getCurrentIndex());
+          }
+        }}
         renderItem={(item) => (
-          <div className="relative group">
+          <div className="group relative cursor-pointer">
             <Image
               src={item.original}
               alt={item.originalAlt ?? "alt"}
               width={1600}
               height={900}
-              className="aspect-video h-auto w-full rounded-lg bg-slate-500 object-contain object-center shadow-md"
+              className="aspect-video h-auto w-full rounded-lg bg-slate-800/50 object-cover object-top shadow-md"
             />
             {(item.originalAlt || item.description) && (
               <div className="absolute bottom-0 w-full bg-black/60 p-2 text-center text-white transition-opacity duration-300 md:opacity-0 md:group-hover:opacity-100">
@@ -102,7 +96,9 @@ const ProjectDetailGallery = (props: ProjectDetailGalleryProps) => {
                   <div className="text-lg font-bold">{item.originalAlt}</div>
                 )}
                 {item.description && (
-                  <div className="text-sm hidden md:block">{item.description}</div>
+                  <div className="hidden text-sm md:block">
+                    {item.description}
+                  </div>
                 )}
               </div>
             )}
@@ -114,7 +110,7 @@ const ProjectDetailGallery = (props: ProjectDetailGalleryProps) => {
             alt={item.thumbnailAlt ?? "alt"}
             width={1600}
             height={900}
-            className="aspect-video h-auto w-full bg-slate-500 object-contain object-center shadow-sm"
+            className="aspect-video h-auto w-full bg-slate-500 object-cover object-top"
           />
         )}
         renderRightNav={(onClick, disabled) => (
@@ -123,10 +119,7 @@ const ProjectDetailGallery = (props: ProjectDetailGalleryProps) => {
             onClick={onClick}
             disabled={disabled}
           >
-            <IoArrowForwardCircleOutline
-              className="text-slate-300 transition-all duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_5px_rgba(0,0,0,0.65)] group-disabled:scale-90 group-disabled:opacity-60"
-              size={48}
-            />
+            <IoArrowForwardCircleOutline className="h-9 w-9 text-slate-300 transition-all duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_5px_rgba(0,0,0,0.65)] group-disabled:scale-90 group-disabled:opacity-60 md:h-12 md:w-12" />
           </button>
         )}
         renderLeftNav={(onClick, disabled) => (
@@ -135,12 +128,16 @@ const ProjectDetailGallery = (props: ProjectDetailGalleryProps) => {
             onClick={onClick}
             disabled={disabled}
           >
-            <IoArrowBackCircleOutline
-              className="text-slate-300 transition-all duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_5px_rgba(0,0,0,0.65)] group-disabled:scale-90 group-disabled:opacity-60"
-              size={48}
-            />
+            <IoArrowBackCircleOutline className="h-9 w-9 text-slate-300 transition-all duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_5px_rgba(0,0,0,0.65)] group-disabled:scale-90 group-disabled:opacity-60 md:h-12 md:w-12" />
           </button>
         )}
+      />
+      <Lightbox
+        slides={slides}
+        open={index >= 0}
+        index={index}
+        close={() => setIndex(-1)}
+        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
       />
     </div>
   );

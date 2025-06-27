@@ -33,3 +33,32 @@ body {
   background: var(--background);
   font-family: "Noto Sans", Helvetica, sans-serif;
 }
+
+/* Custom styles for react-image-gallery */
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  object-fit: contain !important; /* Ensure main image is fully visible */
+  max-height: 75vh !important; /* Limit max height on large screens */
+}
+
+.image-gallery-thumbnail {
+  border: 2px solid transparent !important;
+  border-radius: 0.5rem !important; /* rounded-lg */
+  overflow: hidden !important;
+  transition: border-color 0.3s ease !important;
+}
+
+.image-gallery-thumbnail.active,
+.image-gallery-thumbnail:hover {
+  border-color: #3b82f6 !important; /* Blue-500 for active/hover */
+}
+
+.image-gallery-thumbnail .image-gallery-thumbnail-inner {
+  border-radius: 0.375rem !important; /* rounded-md */
+  overflow: hidden;
+}
+
+/* Fix for react-image-gallery border-radius during slide transition */
+.image-gallery-slide-wrapper {
+  border-radius: 0.5rem; /* Tailwind's rounded-lg */
+  overflow: hidden;
+}

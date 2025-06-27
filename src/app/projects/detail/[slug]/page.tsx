@@ -37,7 +37,7 @@ const ProjectDetailPage = async ({
                 alt={currentProject.images[0].imageName}
                 width={1600}
                 height={900}
-                className="aspect-video h-auto w-full rounded-lg bg-slate-500 object-contain object-center shadow-md"
+                className="aspect-video h-auto w-full rounded-lg bg-slate-500 object-contain object-top shadow-md"
               />
             </div>
           </div>

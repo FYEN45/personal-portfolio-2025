@@ -22,7 +22,7 @@ const ProjectCardItem = ({ project }: ProjectCardItemProps) => {
         loading="lazy"
         width={300}
         height={200}
-        className="aspect-video h-auto w-full object-cover object-center"
+        className="aspect-video h-auto w-full object-cover object-top"
       />
 
       <div className="flex grow flex-col gap-2 border-t border-slate-100 px-4 pt-2 pb-4">
