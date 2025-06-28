@@ -1,14 +1,106 @@
 [
   {
+    "id": -1,
+    "disabled": true,
+    "projectSlug": "template-project",
+    "projectName": "Template",
+    "projectDescription": "Template",
+    "projectStatus": "",
+    "repoUrl": "",
+    "stagingUrl": "",
+    "liveUrl": "",
+    "techStacks": [],
+    "images": [],
+    "features": []
+  },
+  {
     "id": 0,
+    "disabled": false,
+    "projectSlug": "itewe",
+    "projectName": "ITEWE",
+    "projectDescription": "ITEWE is a company profile and product catalog website for a business that sells construction equipment and materials. This web application allows users to browse various products, view detailed descriptions, and learn more about the company. Built with React, Tailwind CSS, and JavaScript, the platform provides a comprehensive online presence for ITEWE.",
+    "projectStatus": "Completed",
+    "repoUrl": "",
+    "stagingUrl": "",
+    "liveUrl": "https://itewe.com/",
+    "techStacks": ["react", "tailwind", "javascript"],
+    "images": [
+      {
+        "imageName": "Home",
+        "imageUrl": "/images/work_project/itewe/itewe-0.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "About Us",
+        "imageUrl": "/images/work_project/itewe/itewe-1.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Product Brands",
+        "imageUrl": "/images/work_project/itewe/itewe-2.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Products inside Brand",
+        "imageUrl": "/images/work_project/itewe/itewe-3.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Certifications",
+        "imageUrl": "/images/work_project/itewe/itewe-4.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Events",
+        "imageUrl": "/images/work_project/itewe/itewe-5.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Downloads",
+        "imageUrl": "/images/work_project/itewe/itewe-6.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Contact Us",
+        "imageUrl": "/images/work_project/itewe/itewe-7.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": [
+      {
+        "featureName": "Responsive Design",
+        "featureDescription": "Ensures a seamless browsing experience across all devices making it easy for users to access information anytime and anywhere."
+      },
+      {
+        "featureName": "Company Profile",
+        "featureDescription": "Provides comprehensive information about the company's history, mission, and values."
+      },
+      {
+        "featureName": "Company Achievements Showcase",
+        "featureDescription": "Displays the company's accomplishments and milestones to build trust and credibility."
+      },
+
+      {
+        "featureName": "Multi-Brand Product Catalog",
+        "featureDescription": "Features a wide range of products from various brands, organized for easy browsing."
+      },
+      {
+        "featureName": "Downloadable Product Details",
+        "featureDescription": "Allows users to download detailed product specifications and information in PDF format."
+      }
+    ]
+  },
+  {
+    "id": 1,
     "disabled": false,
     "projectSlug": "mta-backoffice-fe",
     "projectName": "Mall Taman Anggrek Backoffice",
     "projectDescription": "Backoffice Mall Taman Anggrek is an internal web application designed to manage the operations of Mall Taman Anggrek efficiently. It features user authentication and authorization, along with modules for managing customers, tenants, memberships, promotions, events, and content for the mall’s member application. Built with Next.js, TypeScript, and Material UI, the system provides a structured, fast, and user-friendly experience for mall administrators.",
-    "projectStatus": "Ongoing",
+    "projectStatus": "Completed",
     "repoUrl": "",
+    "stagingUrl": "",
     "liveUrl": "https://backoffice-app.taman-anggrek-mall.com",
-    "techStacks": ["nextjs", "material_ui", "typescript"],
+    "techStacks": ["material_ui", "nextjs", "tailwind", "react", "typescript"],
     "images": [
       {
         "imageName": "Dashboard",
@@ -269,31 +361,282 @@
     "features": [
       {
         "featureName": "Authentication",
-        "featureDescription": ""
+        "featureDescription": "Secure login system with multi-factor authentication to protect sensitive mall operations data and ensure only authorized personnel can access the system."
       },
       {
         "featureName": "Authorization",
-        "featureDescription": ""
+        "featureDescription": "Role-based access control system that defines different permission levels for various user types, ensuring staff can only access features relevant to their responsibilities."
       },
       {
         "featureName": "CRUD",
-        "featureDescription": ""
+        "featureDescription": "Comprehensive Create, Read, Update, and Delete functionality across all modules, allowing administrators to efficiently manage all mall data including customers, tenants, events, and promotions."
       },
       {
         "featureName": "Transaction Tracker",
-        "featureDescription": ""
+        "featureDescription": "Real-time monitoring system for customer purchases and redemptions, providing administrators with detailed insights into shopping patterns and program effectiveness."
       },
       {
         "featureName": "Reward Tracker",
-        "featureDescription": ""
+        "featureDescription": "Advanced system to manage loyalty points, vouchers, and special offers, with automated tracking of reward issuance, usage, and expiration to enhance the customer loyalty program."
       },
       {
         "featureName": "Content Management",
-        "featureDescription": ""
+        "featureDescription": "Flexible tools for creating and publishing dynamic content including banners, event announcements, promotions, and mall information across customer-facing applications."
       },
       {
-        "featureName": "Generate Report",
-        "featureDescription": ""
+        "featureName": "Report Generation",
+        "featureDescription": "Customizable reporting engine that produces detailed analytics on mall operations, customer demographics, transaction patterns, and campaign effectiveness to support data-driven decision making."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "disabled": false,
+    "projectSlug": "mta-customer",
+    "projectName": "Mall Taman Aggrek - Customer App",
+    "projectDescription": "Mall Taman Anggrek Customer App is a mobile-first progressive web application designed to enhance the shopping experience at Mall Taman Anggrek. The app serves as a digital loyalty platform where customers can register, track their purchases, earn and redeem points, receive personalized promotions, and stay updated with the latest mall events and offers. Built with Next.js and optimized for performance across all devices, this PWA provides shoppers with a seamless connection to the mall's ecosystem while offering valuable insights to mall management through customer engagement data.",
+    "projectStatus": "Completed",
+    "repoUrl": "",
+    "stagingUrl": "",
+    "liveUrl": "https://ayc.taman-anggrek-mall.com/home",
+    "techStacks": ["nextjs", "tailwind", "react", "typescript"],
+    "images": [
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/mta-customer-fe/mta-customer-0.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/mta-customer-fe/mta-customer-1.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/mta-customer-fe/mta-customer-2.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/mta-customer-fe/mta-customer-3.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/mta-customer-fe/mta-customer-4.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/mta-customer-fe/mta-customer-5.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/mta-customer-fe/mta-customer-6.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": [
+      {
+        "featureName": "Multi Ways to Login",
+        "featureDescription": "Versatile authentication system allowing customers to access their accounts through email, google accounts, or phone number verification, providing convenience while maintaining security."
+      },
+      {
+        "featureName": "Progressive Web App (PWA)",
+        "featureDescription": "App-like experience accessible directly from web browsers, featuring offline functionality, fast loading speeds, and the ability to install on home screens without requiring app store downloads."
+      },
+      {
+        "featureName": "Notifications",
+        "featureDescription": "Alert system that keeps customers informed about exclusive mall events, personalized offers, points expiration, and special promotions through in-app and push notifications."
+      },
+      {
+        "featureName": "User Profile",
+        "featureDescription": "Customizable personal dashboard where customers can manage their membership details, view loyalty points, update personal information, and set communication preferences."
+      },
+      {
+        "featureName": "Transaction Tracker",
+        "featureDescription": "Comprehensive system allowing customers to monitor their shopping history, track loyalty points earned, view receipt details, and manage vouchers and rewards all in one convenient location."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "disabled": false,
+    "projectSlug": "mta-tenant-fe",
+    "projectName": "Mall Taman Anggrek Tenant",
+    "projectDescription": "The Mall Taman Anggrek Tenant App is a specialized web application designed for tenants to streamline their operational workflows. It provides a secure portal for tenants to manage their store profiles, submit sales data, track performance metrics, and communicate directly with mall management. Key features include a comprehensive dashboard for real-time sales monitoring, tools for participating in mall-wide promotions and events, and a notification system for important updates. Built with Next.js and integrated with the mall’s central backoffice system, the app empowers tenants to optimize their operations and enhance their partnership with Mall Taman Anggrek.",
+    "projectStatus": "Completed",
+    "repoUrl": "",
+    "stagingUrl": "",
+    "liveUrl": "https://tenant-app.taman-anggrek-mall.com",
+    "techStacks": ["nextjs", "tailwind", "react", "typescript"],
+    "images": [
+      {
+        "imageName": "Login",
+        "imageUrl": "/images/work_project/mta-tenant-fe/mta-tenant-0.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Dashboard",
+        "imageUrl": "/images/work_project/mta-tenant-fe/mta-tenant-1.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Profile",
+        "imageUrl": "/images/work_project/mta-tenant-fe/mta-tenant-2.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Campaign",
+        "imageUrl": "/images/work_project/mta-tenant-fe/mta-tenant-3.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Redeem",
+        "imageUrl": "/images/work_project/mta-tenant-fe/mta-tenant-4.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Redeem - Filter Popup",
+        "imageUrl": "/images/work_project/mta-tenant-fe/mta-tenant-5.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Redeem Detail",
+        "imageUrl": "/images/work_project/mta-tenant-fe/mta-tenant-6.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "User",
+        "imageUrl": "/images/work_project/mta-tenant-fe/mta-tenant-7.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Add User",
+        "imageUrl": "/images/work_project/mta-tenant-fe/mta-tenant-8.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Notifications",
+        "imageUrl": "/images/work_project/mta-tenant-fe/mta-tenant-9.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Forgot Password",
+        "imageUrl": "/images/work_project/mta-tenant-fe/mta-tenant-10.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": [
+      {
+        "featureName": "Authentication",
+        "featureDescription": "Secure login system to ensure that only authorized tenant staff can access the application, protecting sensitive sales and operational data."
+      },
+      {
+        "featureName": "Dashboard",
+        "featureDescription": "A comprehensive dashboard that provides tenants with real-time insights into their sales performance, customer engagement, and operational metrics, enabling data-driven decision making."
+      },
+      {
+        "featureName": "User Profile",
+        "featureDescription": "Allows tenants to manage their store profiles, update contact information, and customize their settings for a personalized experience."
+      },
+      {
+        "featureName": "Campaign Participation",
+        "featureDescription": "Enables tenants to view and participate in mall-wide promotions and events, helping them to increase visibility and drive sales."
+      },
+      {
+        "featureName": "Redemption Management",
+        "featureDescription": "A system for managing customer redemptions, allowing tenants to track and process loyalty points and rewards efficiently."
+      },
+      {
+        "featureName": "Notification System",
+        "featureDescription": "Notifications for important updates, new campaigns, and operational alerts to keep tenants informed and engaged."
+      },
+      {
+        "featureName": "User Management",
+        "featureDescription": "Tenant administrators can manage user accounts, assign roles, and control access to various features within the application."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "disabled": false,
+    "projectSlug": "mld-member-next",
+    "projectName": "MLD Member",
+    "projectDescription": "MLD Member is a loyalty program web application that offers exclusive benefits to its members. The platform allows users to register, earn points from purchases, and redeem them for rewards. It features a personalized dashboard where members can track their points, view their transaction history, and access special promotions. The application is designed to foster a strong community by providing a seamless and engaging experience for all MLD members.",
+    "projectStatus": "Completed",
+    "repoUrl": "",
+    "stagingUrl": "https://mldspot.k8s.redtech.co.id/mldpoints-rewards",
+    "liveUrl": "https://member.mldspot.com",
+    "techStacks": ["nextjs", "tailwind", "react", "typescript"],
+    "images": [
+      {
+        "imageName": "Dashboard (Unsigned In)",
+        "imageUrl": "/images/work_project/mld-member-next/mld-member-next-0.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Login",
+        "imageUrl": "/images/work_project/mld-member-next/mld-member-next-1.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Dashboard",
+        "imageUrl": "/images/work_project/mld-member-next/mld-member-next-2.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Member Status",
+        "imageUrl": "/images/work_project/mld-member-next/mld-member-next-3.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Quests",
+        "imageUrl": "/images/work_project/mld-member-next/mld-member-next-4.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Reward List",
+        "imageUrl": "/images/work_project/mld-member-next/mld-member-next-5.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Event Banner",
+        "imageUrl": "/images/work_project/mld-member-next/mld-member-next-6.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Event Selection",
+        "imageUrl": "/images/work_project/mld-member-next/mld-member-next-7.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Upload Receipt / Voucher for Event",
+        "imageUrl": "/images/work_project/mld-member-next/mld-member-next-8.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": [
+      {
+        "featureName": "Authentication",
+        "featureDescription": "Secure login and registration system to ensure that only authorized members can access the application, protecting their personal data and points."
+      },
+      {
+        "featureName": "Point Management",
+        "featureDescription": "A comprehensive system for members to earn, track, and redeem points for various rewards, enhancing member engagement and loyalty."
+      },
+      {
+        "featureName": "Event Participation",
+        "featureDescription": "Allows members to view and register for exclusive events, fostering a sense of community and providing additional value to the membership."
+      },
+      {
+        "featureName": "Reward Redemption",
+        "featureDescription": "An easy-to-use interface for members to browse and redeem their accumulated points for a variety of rewards, including merchandise, vouchers, and exclusive experiences."
+      },
+      {
+        "featureName": "Progressive Web App (PWA)",
+        "featureDescription": "A mobile-friendly application that provides a seamless user experience across devices, allowing members to access their accounts and rewards anytime, anywhere."
       }
     ]
   }
