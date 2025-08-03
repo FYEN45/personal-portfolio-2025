@@ -112,5 +112,17 @@
     "name": "PHP",
     "imgSrc": "/images/tech_stacks/php.png",
     "disabled": true
+  },
+  {
+    "slug": "laravel",
+    "name": "Laravel",
+    "imgSrc": "/images/tech_stacks/laravel.png",
+    "disabled": true
+  },
+  {
+    "slug": "jquery",
+    "name": "jQuery",
+    "imgSrc": "/images/tech_stacks/jquery.png",
+    "disabled": true
   }
 ]

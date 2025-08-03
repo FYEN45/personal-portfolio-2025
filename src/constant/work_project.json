@@ -639,5 +639,143 @@
         "featureDescription": "A mobile-friendly application that provides a seamless user experience across devices, allowing members to access their accounts and rewards anytime, anywhere."
       }
     ]
+  },
+
+  {
+    "id": 5,
+    "disabled": false,
+    "projectSlug": "skillku-next",
+    "projectName": "Skillku (Revamp)",
+    "projectDescription": "Skillku is a web application designed to help users learn new skills through interactive courses and tutorials. The platform offers a wide range of topics, allowing users to explore various fields and enhance their knowledge. Built with Next.js, Tailwind CSS, and React, Skillku provides a modern and responsive design that ensures an engaging learning experience.",
+    "projectStatus": "Completed",
+    "repoUrl": "",
+    "stagingUrl": "",
+    "liveUrl": "https://www.skillku.com/",
+    "techStacks": ["nextjs", "tailwind", "react", "typescript"],
+    "images": [
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/skillku-next/skillku-next-0.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/skillku-next/skillku-next-1.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/skillku-next/skillku-next-2.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": [
+      {
+        "featureName": "Course Catalog",
+        "featureDescription": "A comprehensive library of courses covering various topics, allowing users to easily find and enroll in courses that interest them."
+      },
+      {
+        "featureName": "Interactive Learning",
+        "featureDescription": "Engaging course materials including videos, quizzes, and interactive exercises to enhance the learning experience."
+      },
+      {
+        "featureName": "User Profiles",
+        "featureDescription": "Personalized user profiles where learners can track their progress, manage enrolled courses, and view completed lessons."
+      },
+      {
+        "featureName": "Responsive Design",
+        "featureDescription": "A modern and responsive design that ensures a seamless learning experience across all devices, from desktops to mobile phones."
+      },
+      {
+        "featureName": "Search and Filter",
+        "featureDescription": "Advanced search and filtering options to help users quickly find courses based on their interests, skill levels, and categories."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "disabled": false,
+    "projectSlug": "bia-webcore",
+    "projectName": "Beverindo Indah Abadi",
+    "projectDescription": "Beverindo Indah Abadi is a company profile and product catalog website for a business that specializes in beverage distribution. This web application allows users to learn about the company, its history, and the products it offers. Built with Laravel, PHP, Tailwind CSS, and JavaScript, the platform provides a modern and responsive design that enhances user experience.",
+    "projectStatus": "Completed",
+    "repoUrl": "",
+    "stagingUrl": "https://bia-webcore.k8s.redtech.co.id",
+    "liveUrl": "",
+    "techStacks": ["laravel", "tailwind", "jquery", "javascript"],
+    "images": [
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/bia-webcore/bia-1.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/bia-webcore/bia-2.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/bia-webcore/bia-3.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/bia-webcore/bia-4.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/bia-webcore/bia-5.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/bia-webcore/bia-6.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/bia-webcore/bia-7.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/bia-webcore/bia-8.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/bia-webcore/bia-9.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/bia-webcore/bia-10.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": [
+      {
+        "featureName": "Responsive Design",
+        "featureDescription": "Ensures a seamless browsing experience across all devices, making it easy for users to access information anytime and anywhere."
+      },
+      {
+        "featureName": "Smooth Animations",
+        "featureDescription": "Enhances user experience with smooth transitions and animations, making navigation more engaging and visually appealing."
+      },
+      {
+        "featureName": "Company Profile",
+        "featureDescription": "Provides comprehensive information about the company's history, mission, and values."
+      },
+      {
+        "featureName": "Product Catalog",
+        "featureDescription": "Features a wide range of products offered by the company, organized for easy browsing."
+      },
+      {
+        "featureName": "Contact Information",
+        "featureDescription": "Displays contact details and a contact form for inquiries, enhancing customer engagement."
+      }
+    ]
   }
 ]
