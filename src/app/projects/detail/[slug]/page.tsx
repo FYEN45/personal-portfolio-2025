@@ -7,6 +7,14 @@ import { redirect } from "next/navigation";
 import React from "react";
 import { MdArrowRightAlt } from "react-icons/md";
 
+export async function generateStaticParams() {
+  const allProjects = GetAllProjectsData();
+
+  return allProjects.map((project) => ({
+    slug: project.projectSlug,
+  }));
+}
+
 const ProjectDetailPage = async ({
   params,
 }: {
