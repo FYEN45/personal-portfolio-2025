@@ -10,6 +10,7 @@ export type ProjectsType = Array<{
   projectStatus: string;
   repoUrl: string;
   liveUrl: string;
+  stagingUrl?: string;
   techStacks: Array<string>;
   images: Array<{
     imageName: string;

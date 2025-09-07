@@ -24,6 +24,8 @@ const ProjectDetailPage = async ({
     redirect("/");
   }
 
+  const projectUrl = currentProject.liveUrl || currentProject.stagingUrl || "#";
+
   return (
     <div className="min-h-screen bg-slate-50">
       <div className="w-full bg-slate-200">
@@ -52,14 +54,14 @@ const ProjectDetailPage = async ({
 
           <div className="flex flex-row items-center gap-2">
             <Link
-              href={currentProject.liveUrl || "#"}
+              href={projectUrl}
               className={`group flex w-fit flex-row items-center gap-2 rounded-lg px-4 py-2 transition-all duration-300 ${
-                currentProject.liveUrl
+                projectUrl
                   ? "cursor-pointer bg-red-500 hover:bg-red-600"
                   : "pointer-events-none cursor-not-allowed bg-red-300"
               }`}
-              tabIndex={currentProject.liveUrl ? 0 : -1}
-              aria-disabled={!currentProject.liveUrl}
+              tabIndex={projectUrl ? 0 : -1}
+              aria-disabled={!projectUrl}
               target="_blank"
               rel="noopener noreferrer"
             >

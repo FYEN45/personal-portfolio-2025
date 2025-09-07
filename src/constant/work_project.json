@@ -563,7 +563,7 @@
     "id": 4,
     "disabled": false,
     "projectSlug": "mld-member-next",
-    "projectName": "MLD Member",
+    "projectName": "MLD Member (Revamp)",
     "projectDescription": "MLD Member is a loyalty program web application that offers exclusive benefits to its members. The platform allows users to register, earn points from purchases, and redeem them for rewards. It features a personalized dashboard where members can track their points, view their transaction history, and access special promotions. The application is designed to foster a strong community by providing a seamless and engaging experience for all MLD members.",
     "projectStatus": "Completed",
     "repoUrl": "",
@@ -637,6 +637,297 @@
       {
         "featureName": "Progressive Web App (PWA)",
         "featureDescription": "A mobile-friendly application that provides a seamless user experience across devices, allowing members to access their accounts and rewards anytime, anywhere."
+      }
+    ]
+  },
+
+  {
+    "id": 5,
+    "disabled": false,
+    "projectSlug": "skillku-next",
+    "projectName": "Skillku (Revamp)",
+    "projectDescription": "Skillku is a web application designed to help users learn new skills through interactive courses and tutorials. The platform offers a wide range of topics, allowing users to explore various fields and enhance their knowledge. Built with Next.js, Tailwind CSS, and React, Skillku provides a modern and responsive design that ensures an engaging learning experience.",
+    "projectStatus": "Completed",
+    "repoUrl": "",
+    "stagingUrl": "",
+    "liveUrl": "https://www.skillku.com/",
+    "techStacks": ["nextjs", "tailwind", "react", "typescript"],
+    "images": [
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/skillku-next/skillku-next-0.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/skillku-next/skillku-next-1.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/skillku-next/skillku-next-2.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": [
+      {
+        "featureName": "Course Catalog",
+        "featureDescription": "A comprehensive library of courses covering various topics, allowing users to easily find and enroll in courses that interest them."
+      },
+      {
+        "featureName": "Interactive Learning",
+        "featureDescription": "Engaging course materials including videos, quizzes, and interactive exercises to enhance the learning experience."
+      },
+      {
+        "featureName": "User Profiles",
+        "featureDescription": "Personalized user profiles where learners can track their progress, manage enrolled courses, and view completed lessons."
+      },
+      {
+        "featureName": "Responsive Design",
+        "featureDescription": "A modern and responsive design that ensures a seamless learning experience across all devices, from desktops to mobile phones."
+      },
+      {
+        "featureName": "Search and Filter",
+        "featureDescription": "Advanced search and filtering options to help users quickly find courses based on their interests, skill levels, and categories."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "disabled": false,
+    "projectSlug": "bia-webcore",
+    "projectName": "Beverindo Indah Abadi",
+    "projectDescription": "Beverindo Indah Abadi is a company profile and product catalog website for a business that specializes in beverage distribution. This web application allows users to learn about the company, its history, and the products it offers. Built with Laravel, PHP, Tailwind CSS, and JavaScript, the platform provides a modern and responsive design that enhances user experience.",
+    "projectStatus": "Completed",
+    "repoUrl": "",
+    "stagingUrl": "https://bia-webcore.k8s.redtech.co.id",
+    "liveUrl": "https://biabrewery.com",
+    "techStacks": ["laravel", "tailwind", "jquery", "javascript"],
+    "images": [
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/bia-webcore/bia-1.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/bia-webcore/bia-2.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/bia-webcore/bia-3.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/bia-webcore/bia-4.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/bia-webcore/bia-5.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/bia-webcore/bia-6.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/bia-webcore/bia-7.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/bia-webcore/bia-8.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/bia-webcore/bia-9.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "",
+        "imageUrl": "/images/work_project/bia-webcore/bia-10.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": [
+      {
+        "featureName": "Responsive Design",
+        "featureDescription": "Ensures a seamless browsing experience across all devices, making it easy for users to access information anytime and anywhere."
+      },
+      {
+        "featureName": "Smooth Animations",
+        "featureDescription": "Enhances user experience with smooth transitions and animations, making navigation more engaging and visually appealing."
+      },
+      {
+        "featureName": "Company Profile",
+        "featureDescription": "Provides comprehensive information about the company's history, mission, and values."
+      },
+      {
+        "featureName": "Product Catalog",
+        "featureDescription": "Features a wide range of products offered by the company, organized for easy browsing."
+      },
+      {
+        "featureName": "Contact Information",
+        "featureDescription": "Displays contact details and a contact form for inquiries, enhancing customer engagement."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "disabled": true,
+    "projectSlug": "rumahku-ecommerce",
+    "projectName": "Ecommerce Rumahku",
+    "projectDescription": "This project is a comprehensive e-commerce platform for Rumahku, a company specializing in a wide range of household products, including electronics, kitchenware, bedroom furniture, and more. Built using Next.js, Tailwind CSS, and React, the platform is designed to provide a seamless shopping experience. Key features include a robust authentication system, advanced product search with filtering options, a dynamic blog page, a dedicated user profile section, and a convenient order tracking system, among many other functionalities.",
+    "projectStatus": "Ongoing",
+    "repoUrl": "",
+    "stagingUrl": "https://rumahku-next.k8s.redtech.co.id/",
+    "liveUrl": "",
+    "techStacks": ["nextjs", "react", "tailwind", "typescript"],
+    "images": [
+      {
+        "imageName": "",
+        "imageUrl": "",
+        "imageDescription": ""
+      }
+    ],
+    "features": [
+      {
+        "featureName": "Authentication",
+        "featureDescription": "Users can securely sign up, log in, and manage their account details"
+      },
+      {
+        "featureName": "Product Filtering",
+        "featureDescription": "Customers can easily find what they are looking for by filtering products based on various criteria"
+      },
+      {
+        "featureName": "Dynamic Blog Page",
+        "featureDescription": "The platform includes a blog section with dynamic content to engage users with relevant articles and updates"
+      },
+      {
+        "featureName": "Order Tracking",
+        "featureDescription": "Customers can track the real-time status and location of their purchases from the moment they are ordered until delivery"
+      },
+      {
+        "featureName": "Shopping Cart",
+        "featureDescription": "The shopping cart allows users to collect products before proceeding to the checkout process"
+      },
+      {
+        "featureName": "Wishlist",
+        "featureDescription": "Users can save products they are interested in buying later to their personal wishlist"
+      },
+      {
+        "featureName": "Product Reviews",
+        "featureDescription": "Customers can leave ratings and written reviews to share their experience with products"
+      },
+      {
+        "featureName": "Secure Payment Gateway",
+        "featureDescription": "The system supports multiple secure payment options, such as credit cards and digital wallets"
+      },
+      {
+        "featureName": "Promotional Codes",
+        "featureDescription": "The platform enables the use of coupon codes and discounts during the checkout process to attract and retain customers"
+      },
+      {
+        "featureName": "Responsive Design",
+        "featureDescription": "The website is optimized to look and function perfectly on various devices, including desktops, tablets, and mobile phones"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "disabled": false,
+    "projectSlug": "yava",
+    "projectName": "YAVA",
+    "projectDescription": "Project YAVA is a company profile website built with Next.js, Tailwind CSS, and React. The main objective is to showcase YAVA, a company specializing in nut-based snacks. The website features essential pages, including a Home page for an overview, a detailed Product Listing page with a search function, and dedicated sections for Ingredients, Company information, a Blog, and Customer Reviews. The modern technology stack ensures the site is fast, responsive, and visually appealing, providing a seamless user experience.",
+    "projectStatus": "Completed",
+    "repoUrl": "",
+    "stagingUrl": "https://yava.k8s.redtech.co.id/",
+    "liveUrl": "",
+    "techStacks": ["nextjs", "tailwind", "react", "typescript"],
+    "images": [
+      {
+        "imageName": "Home Page",
+        "imageUrl": "/images/work_project/yava/yava-0.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Lontar Sugar Page",
+        "imageUrl": "/images/work_project/yava/yava-1.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Our Foods Page",
+        "imageUrl": "/images/work_project/yava/yava-2.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Ingredients Page",
+        "imageUrl": "/images/work_project/yava/yava-3.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Company Page",
+        "imageUrl": "/images/work_project/yava/yava-4.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Review Page",
+        "imageUrl": "/images/work_project/yava/yava-5.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Blog List Page",
+        "imageUrl": "/images/work_project/yava/yava-6.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Blog Content Page",
+        "imageUrl": "/images/work_project/yava/yava-7.png",
+        "imageDescription": ""
+      }
+    ],
+    "features": [
+      {
+        "featureName": "Product Listing",
+        "featureDescription": "This feature displays a comprehensive list of all the snacks offered by YAVA"
+      },
+      {
+        "featureName": "Product Search",
+        "featureDescription": "This functionality allows users to quickly find specific products using keywords"
+      },
+      {
+        "featureName": "Ingredients Page",
+        "featureDescription": "This section provides detailed information about the ingredients used in each product"
+      },
+      {
+        "featureName": "Company Page",
+        "featureDescription": "This page offers a detailed look into YAVA's history, mission, and values"
+      },
+      {
+        "featureName": "Blog Page",
+        "featureDescription": "This feature contains articles and updates related to the company, products, and healthy eating"
+      },
+      {
+        "featureName": "Review Page",
+        "featureDescription": "This page showcases testimonials and feedback from customers about their experience with YAVA's snacks"
+      },
+      {
+        "featureName": "Multi-language Support",
+        "featureDescription": "This feature makes the website accessible to a wider global audience by providing multiple language options"
+      },
+      {
+        "featureName": "Attractive Animations",
+        "featureDescription": "This functionality adds dynamic and engaging visual effects to enhance the overall user experience"
+      },
+      {
+        "featureName": "Responsive Design",
+        "featureDescription": "This ensures the website provides an optimal viewing experience on various devices, from desktops to mobile phones"
       }
     ]
   }
