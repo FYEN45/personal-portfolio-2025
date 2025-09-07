@@ -701,7 +701,7 @@
     "projectStatus": "Completed",
     "repoUrl": "",
     "stagingUrl": "https://bia-webcore.k8s.redtech.co.id",
-    "liveUrl": "",
+    "liveUrl": "https://biabrewery.com",
     "techStacks": ["laravel", "tailwind", "jquery", "javascript"],
     "images": [
       {
