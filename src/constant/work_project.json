@@ -640,7 +640,6 @@
       }
     ]
   },
-
   {
     "id": 5,
     "disabled": false,
@@ -791,8 +790,38 @@
     "techStacks": ["nextjs", "react", "tailwind", "typescript"],
     "images": [
       {
-        "imageName": "",
-        "imageUrl": "",
+        "imageName": "Home Page",
+        "imageUrl": "/images/work_project/rumahku/rumahku-0.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Product List Page",
+        "imageUrl": "/images/work_project/rumahku/rumahku-1.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Product Detail Page",
+        "imageUrl": "/images/work_project/rumahku/rumahku-2.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "About Us",
+        "imageUrl": "/images/work_project/rumahku/rumahku-3.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Service - Internal Courier",
+        "imageUrl": "/images/work_project/rumahku/rumahku-4.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Service - Instalation",
+        "imageUrl": "/images/work_project/rumahku/rumahku-5.png",
+        "imageDescription": ""
+      },
+      {
+        "imageName": "Membership",
+        "imageUrl": "/images/work_project/rumahku/rumahku-6.png",
         "imageDescription": ""
       }
     ],
