@@ -779,7 +779,7 @@
   },
   {
     "id": 7,
-    "disabled": true,
+    "disabled": false,
     "projectSlug": "rumahku-ecommerce",
     "projectName": "Ecommerce Rumahku",
     "projectDescription": "This project is a comprehensive e-commerce platform for Rumahku, a company specializing in a wide range of household products, including electronics, kitchenware, bedroom furniture, and more. Built using Next.js, Tailwind CSS, and React, the platform is designed to provide a seamless shopping experience. Key features include a robust authentication system, advanced product search with filtering options, a dynamic blog page, a dedicated user profile section, and a convenient order tracking system, among many other functionalities.",
